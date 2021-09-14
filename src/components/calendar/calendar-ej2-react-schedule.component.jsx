@@ -16,6 +16,7 @@ import {
 } from "@syncfusion/ej2-react-schedule";
 import { applyCategoryColor } from "./helper";
 import * as dataSource from "./datasource.json";
+import "./calendar-ej2.style.scss"
 
 const CalendarEj2ReactSchedule = () => {
   const data = extend([], dataSource.fifaEventsData, null, true);
